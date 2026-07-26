@@ -3,3 +3,5 @@
 result
 
 vendor
+
+.pre-commit-config.yaml

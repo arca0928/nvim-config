@@ -25,6 +25,7 @@
     inputs.flake-parts.lib.mkFlake { inherit inputs; } {
       imports = [
         inputs.treefmt.flakeModule
+        inputs.git-hooks.flakeModule
       ];
       systems = [ "x86_64-linux" ];
 
@@ -33,6 +34,7 @@
           self',
           pkgs,
           system,
+          config,
           ...
         }:
         {
@@ -74,12 +76,23 @@
               nixd
               fennel-ls
             ];
+
+            shellHook = ''
+              ${config.pre-commit.shellHook}
+            '';
           };
 
           treefmt = {
             programs = {
               nixfmt.enable = true;
+              deno.enable = true;
+              fnlfmt.enable = true;
             };
+          };
+
+          pre-commit = {
+            check.enable = true;
+            settings.hooks.treefmt.enable = true;
           };
 
           packages = rec {

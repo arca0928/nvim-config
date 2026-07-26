@@ -72,6 +72,7 @@
               deno
               npins
               nixd
+              fennel-ls
             ];
           };
 

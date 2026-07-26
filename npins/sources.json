@@ -1,0 +1,117 @@
+{
+  "pins": {
+    "catppuccin.nvim": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "catppuccin",
+        "repo": "nvim"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v2.0.0",
+      "revision": "605b4603797de970e9f3a4238c199c850da03186",
+      "url": "https://api.github.com/repos/catppuccin/nvim/tarball/refs/tags/v2.0.0",
+      "hash": "sha256-7R4jo4tLHuS34hikP+TeI3TH16qF7CAhhmChhzJ8NtQ="
+    },
+    "ddc.vim": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "Shougo",
+        "repo": "ddc.vim"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v10.3.0",
+      "revision": "4a4404d856ed82aec00c4e6d36cab0dd13f7883f",
+      "url": "https://api.github.com/repos/Shougo/ddc.vim/tarball/refs/tags/v10.3.0",
+      "hash": "sha256-vetnDOYWEg+iuMOFL2GYzVfuYgV94Jl8DzBDZxhAFf0="
+    },
+    "denops.vim": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "vim-denops",
+        "repo": "denops.vim"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v8.0.2",
+      "revision": "1df7a022d6e9cb3f6a3db43235e0f174ccd79e03",
+      "url": "https://api.github.com/repos/vim-denops/denops.vim/tarball/refs/tags/v8.0.2",
+      "hash": "sha256-lj8yjZrwE9GfNPDIpH4tCI4TTJHkYRlFFCTdqMqWtZg="
+    },
+    "dpp-ext-lazy": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "Shougo",
+        "repo": "dpp-ext-lazy"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v2.0.1",
+      "revision": "80c0e81c566e1e129fa092e90ec109b3e8dd99d6",
+      "url": "https://api.github.com/repos/Shougo/dpp-ext-lazy/tarball/refs/tags/v2.0.1",
+      "hash": "sha256-x7CLzBsr3QJGNpQ2hdMZqND9r7fTGhyktGqPSAcLtEM="
+    },
+    "dpp-ext-toml": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "Shougo",
+        "repo": "dpp-ext-toml"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v2.0.1",
+      "revision": "9a441896eebb09ca5f9b93fec79d094799ae3cde",
+      "url": "https://api.github.com/repos/Shougo/dpp-ext-toml/tarball/refs/tags/v2.0.1",
+      "hash": "sha256-txtUBfy9FcFQt/TWWD1p+Z8vVhUyolxtMpwfuvJzv8g="
+    },
+    "dpp.vim": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "Shougo",
+        "repo": "dpp.vim"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v6.6.0",
+      "revision": "a6d53c8f5ca9d86198c9ddeed01585ad381de2db",
+      "url": "https://api.github.com/repos/Shougo/dpp.vim/tarball/refs/tags/v6.6.0",
+      "hash": "sha256-6YJVMY++cTdZpeP1KnBO7Fqa6PJZ+FwB7pSvXgWVASw="
+    },
+    "pum.vim": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "Shougo",
+        "repo": "pum.vim"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "2.0",
+      "revision": "3aa30339be28e813eb8b30171c4f1a95994de450",
+      "url": "https://api.github.com/repos/Shougo/pum.vim/tarball/refs/tags/2.0",
+      "hash": "sha256-bovYwcTjWXkvscc2p55Cb1pDEOHJPliYz1hsn0fhhiw="
+    }
+  },
+  "version": 8
+}

@@ -1,0 +1,8 @@
+[[plugins]]
+name = "catppuccin.nvim"
+
+[[plugins]]
+name = "ddc.vim"
+
+[[plugins]]
+name = "pum.vim"
